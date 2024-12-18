@@ -123,17 +123,18 @@ body{
     padding: 20px 0px 20px 0px;
 }  
 
-.header__list {
+.menu {
     display: flex;
     flex-wrap: wrap;
 }
 
-.header__item {
+.menu__item {
     width: 172px;
     margin-left: 115px;
+    margin-top: 10px;
 }
 
-.header__link:hover, .header__link:focus, .header__link:active {
+.menu__link:hover, .header__link:focus, .header__link:active {
     opacity: 70%
 }
 
